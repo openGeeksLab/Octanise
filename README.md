@@ -12,7 +12,7 @@ to lounch development mode:
 
 `npm start`
 
-to lounch production:
+to launch production:
 
 1) fulfill `server/config/env/production.js`    (development.js is an example)
 2) run `node dist/index.js`
