@@ -16,6 +16,7 @@ import Bootstrap from './components/Bootstrap';
 import config from './config';
 import db from './db';
 import passport from './components/Passport';
+import start from './start';
 
 const RedisStore = connectRedis(session);
 const app = express();
