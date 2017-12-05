@@ -1,0 +1,282 @@
+.main-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-form {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 10%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff !important;
+}
+
+.header {
+  text-align: center;
+  vertical-align: middle;
+  color: #5698c6;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: 6px;
+  border-width: 1px 0px;
+  border-style: solid;
+}
+
+.progress-bar > div {
+  width: 100px;
+  height: 100%;
+}
+
+.filled {
+  background-color: #5698c6;
+}
+
+.empty {
+  background-color: #eff3f4;
+}
+
+.data-container {
+  width: 80%;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.form-columns {
+  height: 400px;
+  width: 100%;
+}
+
+.form-columns > div {
+  width: 100%;
+  height: 100px;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.registerView {
+  height: 400px;
+}
+
+.view-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.bottom-buttons {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.arrow-button {
+  position: absolute;
+  right: 20px;
+  background-color: #ffffff;
+  color: #5698c6;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.back-button {
+  position: absolute;
+  left: 20px;
+  background-color: #ffffff;
+  color: #777777;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: none;
+  border: none;
+}
+
+.arrow-button > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-button > div > span {
+  margin-right: 10px;
+}
+
+.arrow-button svg {
+  fill: #5698c6;
+}
+
+.button-border > div {
+  border: 1px solid #5698c6;
+  border-radius: 10%;
+}
+
+.inner-container {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.inner-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.inner-container > div > input {
+  border-width: 0px 0px 2px 0px;
+  outline: none;
+}
+
+.cell {
+  width: 100px;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-year {
+  width: 40px;
+}
+
+.cell-day {
+  width: 22px;
+}
+
+.form-input {
+  width: 100%;
+  border-width: 0px 0px 2px 0px;
+  outline: none;
+}
+
+.error {
+  color: #d32f2f;
+}
+
+.subheader {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+.gender-cell {
+  cursor: pointer;
+}
+
+.gender-chosen {
+  background-color: #5698c6;
+  color: #ffffff;
+}
+
+.select-wrapper {
+  width: 100%;
+}
+
+.select-wrapper > select {
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.final-data > form {
+  height: 100%;
+}
+
+.final-button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #5698c6;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-button .arrow-button {
+  position: inherit !important;
+}
+
+.image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.image-container > img {
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.cell-wrapper {
+  position: relative;
+}
+
+.day {
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  width: 200px;
+}
+
+.month {
+  position: absolute;
+  bottom: -20px;
+  left: -80px;
+  width: 200px;
+}
+
+.year {
+  position: absolute;
+  bottom: -20px;
+  left: -160px;
+  width: 200px;
+}
+
+.gender {
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  width: 200px;
+}
+
+.loginWrapper {
+  width: 300px;
+  height: 500px;
+  margin: 20px auto;
+}
