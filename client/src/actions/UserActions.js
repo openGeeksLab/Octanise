@@ -1,8 +1,8 @@
 import { LOAD_USER } from './types';
 import axios from 'axios';
 
-const regURL = "http://localhost:8000/api/v1/auth/registration";
-const loginURL = "http://localhost:8000/api/v1/auth/login";
+const regURL = "/api/v1/auth/registration";
+const loginURL = "/api/v1/auth/login";
 
 export function loadUser(user) {
   return {
