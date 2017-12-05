@@ -16,7 +16,9 @@ export default function(app) {
 
   appRouter.post('/registration',async (req, res, next) => {
     try {
-      res.send(await userAction.registration(req.body));
+      const user = await userAction.registration(req.body);
+      req.session.passport = {user};
+      res.send(user);
     }
     catch (e) {
       res.status(400).send(e);
